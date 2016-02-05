@@ -3,12 +3,14 @@ package org.github.holmistr.devconfdemo.entity;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.Indexed;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Jiri Holusa (jholusa@redhat.com)
  */
 @Indexed
-public class Product {
+public class Product implements Serializable {
 
     private Long id;
     @Field
