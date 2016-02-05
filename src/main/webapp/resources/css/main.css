@@ -1,0 +1,56 @@
+body {
+    background-color: #373737;
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#header a {
+    margin: 0 4px 0 4px;
+}
+
+h1 {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content table {
+    margin: 0 auto 0 auto;
+}
+
+#content table.listTable {
+    width: 70%;
+}
+
+#content table th {
+    text-align: left;
+}
+
+#content table td.message {
+    padding-bottom: 5px;
+}
+
+#content #controls {
+    margin-top: 15px;
+}
+
+#content #controls a {
+    margin: 0 20px 0 20px;
+}
+
+#content #controls .inputText {
+    width: 15px;
+}
+
+#content #controls .submitButton {
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center !important;
+}
